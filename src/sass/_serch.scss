@@ -1,0 +1,60 @@
+.gallery {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: #222327;
+  position: sticky;
+  top: 0px;
+}
+body {
+  background-color: #222327;
+}
+
+input {
+  width: 140px;
+  height: 40px;
+  border: 0px solid transparent;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  color: rgb(255 107 0);
+  font-weight: 700;
+  font-size: medium;
+
+  transition: width 0.4s ease-in-out;
+}
+input[type='text']:focus {
+  width: 200px;
+}
+
+input::placeholder {
+  opacity: 0.5;
+  color: orangered;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: orangered;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.load-more {
+  width: 150px;
+  height: 50px;
+  margin-left: 41%;
+}
